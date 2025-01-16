@@ -1,0 +1,78 @@
+.header {
+  width: 100%;
+  height: fit-content;
+  margin-top: 0;
+  padding-top: 0;
+  position: relative;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d1d2d6;
+  background-color: transparent;
+}
+
+.header__wraper {
+  display: flex;
+  width: fit-content;
+}
+
+.header__tittle {
+  margin-left: 104px;
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.header__logo {
+  width: 150px;
+}
+
+.header__text {
+  margin: auto 45px;
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  /* height: 80px;
+  border-bottom: #fff solid 3px;
+  align-content: center; */
+}
+
+.header__selected {
+  height: 80px;
+  border-bottom: #fff solid 3px;
+  align-content: center;
+}
+
+.header__selected-user {
+  height: 80px;
+  border-bottom: #000 solid 3px;
+  align-content: center;
+}
+
+.header__btn {
+  margin-right: 104px;
+  width: 176px;
+  height: 48px;
+  border-radius: 50px;
+  background-color: transparent;
+  border: solid 1px #3a32a9;
+  color: rgb(181, 92, 92);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.header__btn-user {
+  border: solid 1px #000;
+  color: #000;
+  display: flex;
+}
+
+.header__link {
+  color: inherit;
+}

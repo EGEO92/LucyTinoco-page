@@ -1,0 +1,10 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("./RobotoSlab-VariableFont_wght.ttf") format("ttf");
+  font-optical-sizing: auto;
+  font-weight: 100, 200, 400, 500, 600, 700, 800, 900;
+  font-style: normal;
+}
